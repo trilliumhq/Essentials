@@ -26,10 +26,7 @@ import static com.earth2me.essentials.I18n.tl;
 @Deprecated // This sign will be removed soon
 public class SignProtection extends EssentialsSign {
     private final transient Set<Material> protectedBlocks = EnumUtil.getAllMatching(Material.class,
-        "CHEST",
-        "FURNACE",
-        "BURNING_FURNACE",
-        "DISPENSER");
+        "SHULKER_BOX");
 
     public SignProtection() {
         super("Protection");
